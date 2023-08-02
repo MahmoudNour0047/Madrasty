@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Start header section */
+header{
+    height: 600px;
+    background-image: url("../img/img/download.jpg");
+    background-size: cover;
+}
+.logo img{
+    width: 150px;
+}
+nav a{
+    font-size: 20px !important;
+    font-weight: 500;
+    margin-left: 20px;
+}
+nav form button{
+    background-color: #ed7c6a !important;
+    color: #eee !important;
+}
+header .text{
+    width: 100%;
+    height: 320px;
+    background-color: #58a18a;
+    border-radius: 20px;
+    margin-left: 130px;
+    margin-top: 60px;
+    color: #eee;
+    padding: 28px;
+    font-size: 44px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+/* End header section */
+/* Start section school clinic */
+.school-clinic h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.school-clinic hr{
+    width: 210px;
+    margin: 0 auto;
+    height: 3px;
+    background-color: red;
+}
+.school-clinic .container img{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.school-clinic .container .school-text{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.school-clinic .container .school-text h2{
+    text-align: left;
+}
+.school-clinic .container .school-text p{
+    width:80%;
+}
+/* End section school clinic */
+/* Start section teach */
+.touch{
+    background-image: url(../img/img/i-love-my-job-so-much_329181-2178.png), url(../img/img/Path\ 62.png);
+    background-size: cover;
+    height: 700px;
+}
+.touch h2{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 400;
+    font-size: 50px;
+    color: #fff;
+    line-height: 2;
+}
+.touch .container .carry-card{
+    max-width: 100%;
+    height: 380px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0 6px 7px #00000021;
+}
+.touch .container .carry-card{
+    border-radius: 20px;
+    box-shadow: 0px 0 6px 7px #00000021;
+}
+.touch div img{
+    width: 90%;
+    height: 150px;
+    margin: 10px ;
+}
+.touch div h3{
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: cornflowerblue;
+}
+.touch div h5{
+    text-align: center;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.404);
+    font-size: 16px;
+}
+/* End section teach */
+
+/* Start section doctor */
+.doctor img{
+    height: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* End section doctor */
+/* Start footer */
+footer{
+    background-color: #0f7b65;
+    padding-top: 50px;
+    border-start-start-radius: 200px;
+    border-start-end-radius: 200px;
+    height: 600px;
+    color: #eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer .mad h2{
+    text-align: center;
+}
+footer .mad h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 2;
+    word-spacing: 2px
+}
+footer .column-parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+footer .column h3{
+    height: 70px;
+    font-size: 23px;
+    font-weight: 500;
+    color: #f08c7b;
+}
+footer .column h5{
+    margin-top: 25px;
+}
+footer .reserved{
+    margin: 8% 100px 0 100px;
+}
+footer .reserved h3 span{
+    font-size: 23px;
+    color: #f08c7b;
+}
+footer .reserved i{
+    margin: 20px;
+    font-size: 30px;
+    color: #f08c7b;
+}
+/* End footer */
+
+@media only screen and ( max-width: 768px){
+    header{
+        height: auto;
+    }
+    .school-clinic{
+        height: auto;
+    }
+    .touch{
+        height: auto;
+    }
+    
+    .doctor{
+        height: auto;
+    }
+    
+    footer{
+        height: auto;
+    }
+    
+}
